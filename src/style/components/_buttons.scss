@@ -89,6 +89,25 @@
   }
 }
 
+/* top button Style */
+.cta-btn--header {
+  color: #e6efe9;
+  border: 2px solid #e6efe9;
+
+  &::after {
+    background: #e6efe9;
+  }
+
+  &:hover {
+    color:  #5E4B56;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
 /* Arrow Button */
 .up i {
   color: #272727;

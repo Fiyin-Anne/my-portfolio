@@ -73,6 +73,24 @@
             font-style: normal;
           }
         }
+
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: orange;
+          background-color: transparent;
+          text-decoration: underline;
+        }
       }
     }
   }
